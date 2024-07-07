@@ -24,7 +24,11 @@ const Nav = () => {
         </li>
       </Link>
       <li>
-        <p className=" hover:text-black font-medium text-lg py-2 px-4" href="">
+        <p
+          onClick={() => alert("Sorry! This page is under maintenance!")}
+          className=" hover:text-black font-medium text-lg py-2 px-4"
+          href=""
+        >
           About
         </p>
       </li>
