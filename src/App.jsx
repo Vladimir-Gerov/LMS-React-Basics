@@ -7,7 +7,6 @@ import Student from "./Components/Student";
 import Hero from "./Components/Hero";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-// import Home from "./Pages/Home";
 import "./index.css";
 
 
