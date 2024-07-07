@@ -2,7 +2,7 @@ import Grading from "./Grading";
 
 const Card = ({ student }) => {
   return (
-    <div className="flex flex-col justify-center text-center p-4 mb-11 bg-gray-300 rounded-2xl">
+    <div className="flex flex-col justify-center text-center p-4 mb-11 bg-gray-300 rounded-2xl w-64">
       <img
         className="rounded-2xl"
         src={student.picture}
@@ -25,4 +25,4 @@ const Card = ({ student }) => {
   );
 };
 
-export { Card };
+export default Card;
